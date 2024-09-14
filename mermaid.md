@@ -1,7 +1,13 @@
 ```mermaid
 classDiagram
-Employee <|-- Avererage : Cool
-Employee : EmpID: int
-Employee : employeeName
-Employee : createNewAcct()
+Employee 
+Employee : EmpId int
+Employee : DmployeeName char
+Employee : ViewAcct()
+Employee : CreateNewAcct()
+Employee : CloseAcct()
+Employee : AddProduct()
+Employee : DeleteProduct()
+Employee : ViewProducts()
+
 ```
