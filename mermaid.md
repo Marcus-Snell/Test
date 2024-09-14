@@ -1,14 +1,16 @@
 ```mermaid
 classDiagram
-Employee --|> Customer
-Employee : EmpId int
-Employee : DmployeeName char
-Employee : ViewAcct()
-Employee : CreateNewAcct()
-Employee : CloseAcct()
-Employee : AddProduct()
-Employee : DeleteProduct()
-Employee : ViewProducts()
+direction RL
+Employee {
+  Employee : EmpId int
+  Employee : DmployeeName char
+  Employee : ViewAcct()
+  Employee : CreateNewAcct()
+  Employee : CloseAcct()
+  Employee : AddProduct()
+  Employee : DeleteProduct()
+  Employee : ViewProducts()
+}
 
 Customer --|> Account
 Customer : CustId int
@@ -41,4 +43,6 @@ Products : ProductId int
 Products : ProductType char
 Products : APR int
 Products : Balance
+
+Employee --|> Customer
 ```
