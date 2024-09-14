@@ -40,4 +40,5 @@ Products --|> Withdraw
 Products : ProductId int
 Products : ProductType char
 Products : APR int
+Products : Balance
 ```
