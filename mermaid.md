@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-  direction RL
+  direction LR
   Employee
     Employee : EmpId int
     Employee : DmployeeName char
