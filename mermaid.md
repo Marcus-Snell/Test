@@ -10,4 +10,13 @@ Employee : AddProduct()
 Employee : DeleteProduct()
 Employee : ViewProducts()
 
+Customer
+Customer : CustId int
+Customer : CustName char
+Customer : CustAddress char
+Customer : Phone int
+Customer : OpenAccount()
+Customer : ViewAccount()
+Customer : CloseAccount()
+Customer : ViewProducts()
 ```
