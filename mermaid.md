@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-Employee 
+Employee --|> Customer
 Employee : EmpId int
 Employee : DmployeeName char
 Employee : ViewAcct()
