@@ -1,6 +1,6 @@
 ```mermaid
 graph TB;
-#A-->B;
+# A-->B;
 B-->C;
 
 ```
