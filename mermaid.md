@@ -1,6 +1,5 @@
 ```mermaid
-classDiagram;
-A-->|B
-B-->|C
+classDiagram
+Class01 <|-- Avererage : Cool
 
 ```
