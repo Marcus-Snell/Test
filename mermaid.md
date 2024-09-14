@@ -1,7 +1,7 @@
 ```mermaid
 classDiagram
   direction RL
-  Employee {
+  Employee{
     Employee : EmpId int
     Employee : DmployeeName char
     Employee : ViewAcct()
