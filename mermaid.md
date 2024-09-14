@@ -1,6 +1,6 @@
 ```mermaid
-graph TB;
-# A-->B;
+classDiagram;
+A-->B;
 B-->C;
 
 ```
