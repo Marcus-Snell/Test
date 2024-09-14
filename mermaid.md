@@ -21,7 +21,7 @@ Customer : ViewAccount()
 Customer : CloseAccount()
 Customer : ViewProducts()
 
-Account
+Account --|> Products
 Account : AcctId int
 Account : Type char
 Account : CustId int
