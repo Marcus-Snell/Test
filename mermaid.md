@@ -34,4 +34,9 @@ Withdraw
 Withdraw : AcctId int
 Withdraw : CustName char
 Withdraw : Date char
+
+Products
+Products : ProductId int
+Products : ProductType char
+Products : APR int
 ```
