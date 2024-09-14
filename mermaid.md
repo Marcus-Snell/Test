@@ -10,8 +10,7 @@ Employee : AddProduct()
 Employee : DeleteProduct()
 Employee : ViewProducts()
 
-Customer --|> Deposit
-Customer --|> Withdraw
+Customer --|> Account
 Customer : CustId int
 Customer : CustName char
 Customer : CustAddress char
@@ -36,7 +35,8 @@ Withdraw : AcctId int
 Withdraw : CustName char
 Withdraw : Date char
 
-Products
+Products --|> Deposit
+Product --|> Withdraw
 Products : ProductId int
 Products : ProductType char
 Products : APR int
