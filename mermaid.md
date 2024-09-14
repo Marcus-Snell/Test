@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram;
-A-->B;
-B-->C;
+A-->|B;
+B-->|C;
 
 ```
