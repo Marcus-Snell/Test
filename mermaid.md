@@ -19,4 +19,19 @@ Customer : OpenAccount()
 Customer : ViewAccount()
 Customer : CloseAccount()
 Customer : ViewProducts()
+
+Account
+Account : AcctId int
+Account : Type char
+Account : CustId int
+
+Deposit
+Deposit : AcctId int
+Deposit : CustName char
+Deposit : Date char
+
+Withdraw
+Withdraw : AcctId int
+Withdraw : CustName char
+Withdraw : Date char
 ```
