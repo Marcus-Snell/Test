@@ -6,9 +6,7 @@ BankMember : MemberId int
 BankMember : MemberName string
 BankMember : MemberAddress string
 BankMember : MemberPhone string
-BankMember : CreateNewAcct()
-BankMember: CloseAcct()
-BankMember : ViewAcct()
+
 
 Employee --|> BankMember : is a
 Employee o-- Customer : has a
@@ -23,14 +21,16 @@ Account --o Product : has a
 Account : AcctId int
 Account : Type char
 Account : CustId int
-Account : getProducts()
-Account : addProduct()
-Account : DeleteProduct()
+Account : getAcct()
+
 
 Product : ProductId int
 Product : ProductType char
 Product : APR int
 Product : Balance int
+Product : getProducts()
+Product : addProduct()
+Product : deleteProduct()
 Product : getBalance()
 Product : makeWithdrawal()
 Product : makeDeposit()
