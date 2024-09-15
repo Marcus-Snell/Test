@@ -11,6 +11,7 @@ BankMember: CloseAcct()
 BankMember : ViewAcct()
 
 Employee --|> BankMember : is a
+Employee o-- Customer : has a
 Employee : EmpId int
 
 Customer --|> BankMember : is a
