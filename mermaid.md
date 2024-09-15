@@ -13,7 +13,7 @@ BankMember : AddProduct()
 BankMember : DeleteProduct()
 BankMember : ViewProducts()
 
-Employee --|> Member : is a
+Employee --|> BankMember : is a
 Employee : EmployeeId(int)
 
 Customer --|> BankMember : is a
