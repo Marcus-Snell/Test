@@ -24,6 +24,7 @@ Account : Type char
 Account : CustId int
 Account : getProducts()
 Account : addProduct()
+Account : delProduct()
 
 
 
