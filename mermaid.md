@@ -5,7 +5,7 @@ BankMember
 BankMember : MemberId int
 BankMember : MemberName string
 BankMember : MemberAddress string
-BankMember : PhoneNumber string
+BankMember : MemberPhone string
 BankMember : CreateNewAcct()
 BankMember: CloseAcct()
 BankMember : ViewAcct()
