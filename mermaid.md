@@ -32,6 +32,7 @@ Account --o Product : has a
 Account : AcctId int
 Account : Type char
 Account : CustId int
+Account : +getAcctId()
 Account : +getProducts()
 Account : +addProduct()
 Account : +delProduct()
