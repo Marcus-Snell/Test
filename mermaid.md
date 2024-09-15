@@ -10,7 +10,6 @@ BankMember : MemberName string
 BankMember : MemberAddress string
 BankMember : MemberPhone string
 BankMember : +getMemberId()
-BankMember : +setMemberId()
 BankMember : +getMemberName()
 BankMember : +setMemberName()
 BankMember : +getMemberAddress()
@@ -24,6 +23,7 @@ Employee : EmpId int
 Employee : +getCustomers()
 Employee : +addCustomer()
 Employee : +delCustomer()
+Employee : setMemberId()
 
 Customer --|> BankMember : is a
 Customer ..> Account : uses a
