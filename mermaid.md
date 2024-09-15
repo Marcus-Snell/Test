@@ -1,24 +1,22 @@
 ```mermaid
 classDiagram
 direction LR
-Member
-Member : MemberId
-Member : MemberName
-Member : MemberAddress
-Member : PhoneNumber
+BankMember
+BankMember : MemberId(int)
+BankMember : MemberName(string)
+BankMember : MemberAddress(string)
+BankMember : PhoneNumber(string)
+BankMember : CreateNewAcct()
+BankMember: CloseAcct()
+BankMember : ViewAcct()
+BankMember : AddProduct()
+BankMember : DeleteProduct()
+BankMember : ViewProducts()
 
 Employee --|> Member : is a
-Employee : EmpId int
-Employee : DmployeeName char
-Employee : ViewAcct()
-Employee : CreateNewAcct()
-Employee : CloseAcct()
-Employee : AddProduct()
-Employee : DeleteProduct()
-Employee : ViewProducts()
-  
+Employee : EmployeeId(int)
 
-Customer --|> Member
+Customer --|> BankMember : is a
 Customer : CustId int
 Customer : CustName char
 Customer : CustAddress char
