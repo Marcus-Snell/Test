@@ -16,12 +16,13 @@ Employee : getCustomers()
 Customer --|> BankMember : is a
 Customer --o Account : has a
 Customer : CustId int
+Customer : getAccount()
 
 Account --o Product : has a
 Account : AcctId int
 Account : Type char
 Account : CustId int
-Account : getAcct()
+
 
 
 Product : ProductId int
