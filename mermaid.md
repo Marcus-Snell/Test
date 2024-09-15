@@ -9,9 +9,6 @@ BankMember : MemberPhone string
 BankMember : CreateNewAcct()
 BankMember: CloseAcct()
 BankMember : ViewAcct()
-BankMember : AddProduct()
-BankMember : DeleteProduct()
-BankMember : ViewProducts()
 
 Employee --|> BankMember : is a
 Employee : EmpId int
@@ -26,6 +23,8 @@ Account : AcctId int
 Account : Type char
 Account : CustId int
 Account : getProducts()
+Account : addProduct()
+Account : DeleteProduct()
 
 Product : ProductId int
 Product : ProductType char
