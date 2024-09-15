@@ -2,10 +2,10 @@
 classDiagram
 direction LR
 BankMember
-BankMember : MemberId(int)
-BankMember : MemberName(string)
-BankMember : MemberAddress(string)
-BankMember : PhoneNumber(string)
+BankMember : MemberId int
+BankMember : MemberName string
+BankMember : MemberAddress string
+BankMember : PhoneNumber string
 BankMember : CreateNewAcct()
 BankMember: CloseAcct()
 BankMember : ViewAcct()
@@ -14,7 +14,7 @@ BankMember : DeleteProduct()
 BankMember : ViewProducts()
 
 Employee --|> BankMember : is a
-Employee : EmployeeId(int)
+Employee : EmployeeId int
 
 Customer --|> BankMember : is a
 Customer : CustId int
