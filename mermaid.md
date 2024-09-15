@@ -1,4 +1,7 @@
 ```mermaid
+---
+title: Banking Application
+---
 classDiagram
 direction LR
 BankMember
