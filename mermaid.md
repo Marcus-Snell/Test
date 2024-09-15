@@ -7,7 +7,7 @@ Member : MemberName
 Member : MemberAddress
 Member : PhoneNumber
 
-Employee
+Employee --|> Member
 Employee : EmpId int
 Employee : DmployeeName char
 Employee : ViewAcct()
@@ -18,7 +18,7 @@ Employee : DeleteProduct()
 Employee : ViewProducts()
   
 
-Customer --|> Account
+Customer --|> Member
 Customer : CustId int
 Customer : CustName char
 Customer : CustAddress char
