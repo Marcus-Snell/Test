@@ -7,7 +7,7 @@ Member : MemberName
 Member : MemberAddress
 Member : PhoneNumber
 
-Employee --is a--|> Member
+Employee --|> Member : is a
 Employee : EmpId int
 Employee : DmployeeName char
 Employee : ViewAcct()
