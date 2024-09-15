@@ -25,17 +25,6 @@ Account : AcctId int
 Account : Type char
 Account : CustId int
 
-Deposit
-Deposit : AcctId int
-Deposit : CustName char
-Deposit : Date char
-
-Withdraw
-Withdraw : AcctId int
-Withdraw : CustName char
-Withdraw : Date char
-
-
 Product : ProductId int
 Product : ProductType char
 Product : APR int
