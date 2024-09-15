@@ -34,9 +34,9 @@ Customer : +getAccount()
 
 Account --o Product : has a
 Account : AcctId int
-Account : Type char
-Account : CustId int
+Account : AcctType char
 Account : +getAcctId()
+Account : +getAcctType()
 Account : +getProducts()
 Account : +addProduct()
 Account : +delProduct()
