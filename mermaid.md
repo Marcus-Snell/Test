@@ -23,7 +23,7 @@ Employee : +addCustomer()
 Employee : +delCustomer()
 
 Customer --|> BankMember : is a
-Customer --> Account : uses a
+Customer ..> Account : uses a
 Customer : CustId int
 Customer : +getCustId()
 Customer : +getAccount()
