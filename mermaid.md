@@ -1,15 +1,21 @@
 ```mermaid
 classDiagram
-  direction LR
-  Employee
-    Employee : EmpId int
-    Employee : DmployeeName char
-    Employee : ViewAcct()
-    Employee : CreateNewAcct()
-    Employee : CloseAcct()
-    Employee : AddProduct()
-    Employee : DeleteProduct()
-    Employee : ViewProducts()
+direction LR
+Member
+Member : MemberId
+Member : MemberName
+Member : MemberAddress
+Member : PhoneNumber
+
+Employee
+Employee : EmpId int
+Employee : DmployeeName char
+Employee : ViewAcct()
+Employee : CreateNewAcct()
+Employee : CloseAcct()
+Employee : AddProduct()
+Employee : DeleteProduct()
+Employee : ViewProducts()
   
 
 Customer --|> Account
