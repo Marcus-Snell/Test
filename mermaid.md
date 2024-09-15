@@ -1,6 +1,6 @@
 ```mermaid
 ---
-title: "Banking Application\ntest"
+title: Banking Application <br> test
 ---
 classDiagram
 direction LR
