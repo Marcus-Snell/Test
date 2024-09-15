@@ -14,17 +14,11 @@ BankMember : DeleteProduct()
 BankMember : ViewProducts()
 
 Employee --|> BankMember : is a
-Employee : EmployeeId int
+Employee : EmpId int
 
 Customer --|> BankMember : is a
+Customer --o Account : has a
 Customer : CustId int
-Customer : CustName char
-Customer : CustAddress char
-Customer : Phone int
-Customer : OpenAccount()
-Customer : ViewAccount()
-Customer : CloseAccount()
-Customer : ViewProducts()
 
 Account
 Account : AcctId int
