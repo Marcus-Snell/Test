@@ -17,7 +17,6 @@ Employee : EmpId int
 Customer --|> BankMember : is a
 Customer --o Account : has a
 Customer : CustId int
-Customer : getAcct()
 
 Account --o Product : has a
 Account : AcctId int
