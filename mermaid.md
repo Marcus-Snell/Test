@@ -23,7 +23,7 @@ Employee : EmpId int
 Employee : +getCustomers()
 Employee : +addCustomer()
 Employee : +delCustomer()
-Employee : setMemberId()
+Employee : +setMemberId()
 
 Customer --|> BankMember : is a
 Customer ..> Account : uses a
