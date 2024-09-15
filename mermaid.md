@@ -35,6 +35,7 @@ Product : ProductId int
 Product : ProductType char
 Product : APR int
 Product : Balance int
+Product : getProductId()
 Product : getBalance()
 Product : makeWithdrawal()
 Product : makeDeposit()
