@@ -22,6 +22,9 @@ Account --o Product : has a
 Account : AcctId int
 Account : Type char
 Account : CustId int
+Account : getProducts()
+Account : addProduct()
+
 
 
 
@@ -29,8 +32,6 @@ Product : ProductId int
 Product : ProductType char
 Product : APR int
 Product : Balance int
-Product : getProducts()
-Product : addProduct()
 Product : getBalance()
 Product : makeWithdrawal()
 Product : makeDeposit()
