@@ -1,6 +1,6 @@
 ```mermaid
 ---
-title: Banking Application
+title: Banking Application - Logical View
 ---
 classDiagram
 direction LR
