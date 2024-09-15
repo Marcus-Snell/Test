@@ -31,6 +31,6 @@ Product : APR int
 Product : Balance
 Product : getBalance()
 Product : makeWithdrawal()
-
+Product : makeDeposit()
 
 ```
