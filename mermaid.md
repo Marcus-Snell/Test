@@ -13,7 +13,7 @@ BankMember : ViewAcct()
 Employee --|> BankMember : is a
 Employee o-- Customer : has a
 Employee : EmpId int
-Employee : getCustomer()
+Employee : getCustomers()
 
 Customer --|> BankMember : is a
 Customer --o Account : has a
