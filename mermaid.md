@@ -20,6 +20,7 @@ BankMember : +setMemberPhone()
 Employee --|> BankMember : is a
 Employee o-- Customer : has a
 Employee : EmpId int
+Employee : +getMemberId()
 Employee : +getCustomers()
 Employee : +addCustomer()
 Employee : +delCustomer()
