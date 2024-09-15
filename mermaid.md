@@ -15,7 +15,6 @@ BankMember : +setMemberAddress()
 BankMember : +getMemberPhone()
 BankMember : +setMemberPhone()
 
-
 Employee --|> BankMember : is a
 Employee o-- Customer : has a
 Employee : EmpId int
@@ -24,7 +23,7 @@ Employee : +addCustomer()
 Employee : +delCustomer()
 
 Customer --|> BankMember : is a
-Customer --o Account : has a
+Customer --> Account : uses a
 Customer : CustId int
 Customer : +getCustId()
 Customer : +getAccount()
@@ -36,9 +35,6 @@ Account : CustId int
 Account : +getProducts()
 Account : +addProduct()
 Account : +delProduct()
-
-
-
 
 Product : ProductId int
 Product : ProductType char
