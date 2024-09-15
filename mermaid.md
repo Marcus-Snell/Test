@@ -29,7 +29,7 @@ Account : DeleteProduct()
 Product : ProductId int
 Product : ProductType char
 Product : APR int
-Product : Balance
+Product : Balance int
 Product : getBalance()
 Product : makeWithdrawal()
 Product : makeDeposit()
