@@ -43,12 +43,11 @@ Withdraw : AcctId int
 Withdraw : CustName char
 Withdraw : Date char
 
-Products --|> Deposit
-Products --|> Withdraw
+
 Products : ProductId int
 Products : ProductType char
 Products : APR int
 Products : Balance
 
-Employee --|> Customer
+
 ```
