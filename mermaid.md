@@ -7,6 +7,7 @@ BankMember : MemberName string
 BankMember : MemberAddress string
 BankMember : MemberPhone string
 BankMember : +getMemberId()
+BankMember : +setMemberId()
 BankMember : +getMemberName()
 BankMember : +setMemberName()
 BankMember : +getMemberAddress()
