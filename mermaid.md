@@ -20,7 +20,7 @@ Customer --|> BankMember : is a
 Customer --o Account : has a
 Customer : CustId int
 
-Account
+Account --o Product : has a
 Account : AcctId int
 Account : Type char
 Account : CustId int
@@ -36,10 +36,10 @@ Withdraw : CustName char
 Withdraw : Date char
 
 
-Products : ProductId int
-Products : ProductType char
-Products : APR int
-Products : Balance
+Product : ProductId int
+Product : ProductType char
+Product : APR int
+Product : Balance
 
 
 ```
