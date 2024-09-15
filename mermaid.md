@@ -17,6 +17,7 @@ Employee : delCustomer()
 Customer --|> BankMember : is a
 Customer --o Account : has a
 Customer : CustId int
+Customer : getCustId()
 Customer : getAccount()
 
 Account --o Product : has a
