@@ -6,13 +6,13 @@ BankMember : MemberId int
 BankMember : MemberName string
 BankMember : MemberAddress string
 BankMember : MemberPhone string
-BankMember : getMemberId()
-BankMember : getMemberName()
-BankMember : setMemberName()
-BankMember : getMemberAddress()
-BankMember : setMemberAddress()
-BankMember : getMemberPhone()
-BankMember : setMemberPhone()
+BankMember : + getMemberId()
+BankMember : + getMemberName()
+BankMember : + setMemberName()
+BankMember : + getMemberAddress()
+BankMember : + setMemberAddress()
+BankMember : + getMemberPhone()
+BankMember : + setMemberPhone()
 
 
 Employee --|> BankMember : is a
