@@ -1,7 +1,6 @@
 ```mermaid
 ---
 title: Banking Application
-.title font_weight: bolder
 ---
 classDiagram
 direction LR
