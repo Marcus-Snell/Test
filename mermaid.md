@@ -30,7 +30,6 @@ Product : APR int
 Product : Balance int
 Product : getProducts()
 Product : addProduct()
-Product : deleteProduct()
 Product : getBalance()
 Product : makeWithdrawal()
 Product : makeDeposit()
