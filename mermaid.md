@@ -40,6 +40,8 @@ Product : ProductId int
 Product : ProductType char
 Product : APR int
 Product : Balance
+Product : getBalance()
+Product : makeWithdrawal()
 
 
 ```
